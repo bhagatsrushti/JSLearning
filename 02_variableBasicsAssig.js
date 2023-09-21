@@ -1,3 +1,7 @@
+console.log("Assignment JS=01");
+
+
+
 console.log("==============numberType=============");
 var PIN = 411001;
 console.log("PIN:,", PIN, "type:",  typeof PIN);
