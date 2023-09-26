@@ -1,29 +1,59 @@
-var num1 = 100;
-var num2 = 200;
-console.log("before swap ==>", num1, num2);
-var temp = num1;
-num1 = num2;
-num2 = temp;
-console.log("after swap ==>", num1, num2);
+console.log("====== Function type:function with no arguments and no return type ===== ");
 
-var hubby = "Virat";
-var wife = "Anushka";
-console.log("Before swap==>", hubby, wife);
-hubby = wife;
-wife = temp;
-console.log("after swap=>", hubby, wife);
+function myPersonalDetails(){
 
-var city1 = "pune";
-var city2 = " Mumbai";
+    console.log("Name: GK");
 
-console.log("==========swap=====");
-function swap(valueOne, valueTwo) { //function declaration
-  console.log(valueOne, valueTwo);
-  console.log("Before swap==>", valueOne, valueTwo);
-  var temp = valueOne;
-  valueOne = valueTwo;
-  valueTwo = temp;
-  console.log("after swap=>", valueOne, valueTwo); //valuone=hubby,valueTwo=wife
+    console.log('city: Pune');
+
+    console.log('PIN CODE: 123456');
+
+    console.log('Is married: YES');
+
 }
-swap(100, 200); //calling fuction /inovation
-swap("virat","Anushka");
+
+myPersonalDetails();
+
+ 
+
+console.log("2. ====== Function type:function with arguments and no return type ===== ");
+
+console.log("==== swap ========");
+
+function swap(valueOne, valueTwo) { // function declaration
+
+    console.log('Before swap ==>', valueOne, valueTwo);
+
+    var temp = valueOne;
+
+    valueOne = valueTwo;
+
+    valueTwo = temp;
+
+    console.log('After swap ==>', valueOne, valueTwo);
+
+}
+
+swap(100, 200); // function call / invocation
+
+swap("Virat", "Anushka");
+
+swap("Pune", "Mumbai");
+
+swap("India", "USA");
+
+ 
+
+console.log("3. ====== Function type:function with arguments and return type ===== ");
+
+function square(num){
+
+   var result = num * num; 
+
+   return result;
+
+}
+
+var squareNum = square(5);
+
+console.log('Num is 5 and its square is: ', squareNum);
