@@ -2,10 +2,7 @@ console.log(`===================Assignment-02 StringHandsOn=====================
 
 var str="    Hey you are doing good, keep it up   ";
 
-function stringHandsOn(){
-
-
-}
+function stringHandsOn(){ }
 stringHandsOn()
 console.log("Step-1 String is ==>", str);
 
