@@ -1,7 +1,6 @@
 console.log("Assignment JS=01");
 
 
-
 console.log("==============numberType=============");
 var PIN = 411001;
 console.log("PIN:,", PIN, "type:",  typeof PIN);
@@ -18,11 +17,7 @@ var isPassed = true;
 console.log("isPassed:,",   isPassed, "type:",  typeof isPassed);
 
 
-
-
 console.log("***************NUll vs Undefine***********");
-
-
 
 console.log("==============type1NULL==============")
 var valuea = null;   

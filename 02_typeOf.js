@@ -8,20 +8,15 @@ var bankName
 console.log("bank name-", bankName,",data type:" , typeof bankName);
 console.log("       ");
 
-
 console.log("------------After initialization------------");
 console.log("       ");
 var bankName="SBI bank";
 console.log("bank name-", bankName,",data type:", typeof bankName);
 
-
-
 console.log("******************2nd stage**********************");
 var marks="90%";
 console.log("marks-", marks,",data type:", typeof marks);
 console.log("            ");
-
-
 
 console.log("******************3rd stage********************");
 
@@ -30,7 +25,6 @@ console.log("        ");
 var isWorking
 console.log("isWorking-", isWorking,",data type:" , typeof isWorking);
 console.log("       ");
-
 
 console.log("--------------------after initialization------------");
 var isWorking= true;
