@@ -37,9 +37,7 @@ function swap(valueOne, valueTwo) { // function declaration
 swap(100, 200); // function call / invocation
 
 swap("Virat", "Anushka");
-
 swap("Pune", "Mumbai");
-
 swap("India", "USA");
 
  
