@@ -1,4 +1,5 @@
-console.log(" ====== function with no arguments and no return type ===== ");
+console.log("**********03_funAssignment01******");
+console.log("********************function with no arguments and no return type************");
 
 function word () {
     console.log(" Hello Srushti Bhagat");
