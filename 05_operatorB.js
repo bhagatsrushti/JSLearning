@@ -41,7 +41,7 @@ console.log(`is 101 Even or Odd: ${result}`);
 console.log(``);
 
 
-console.log("*******step3******");
+console.log("*******step3*******");
 var str1="Javascript"
 var length1=str1.length
 
