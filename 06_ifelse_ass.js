@@ -1,6 +1,6 @@
 var voteEligible = function(age){
     var result = +age;
-    if (age<=0 || age>=130 || age==null || isNaN(result)) {
+    if (age==0 || age<0 || age>=130 || age==null || isNaN) {
         console.log(`Invalid data: ${age}`);
     }else{
         if (age<18) {
