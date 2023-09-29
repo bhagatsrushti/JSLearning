@@ -2,6 +2,14 @@ console.log("********stringBasicAssign-01*************");
 
 console.log("******************************Step1******************************");
 
+
+
+
+var show = function () {
+    console.log(`Inside Function Expression...`); //function body
+    
+}
+show();
 function stringBasics() {
     console.log(`My dream company is:   "Google Microsoft`);
 }
