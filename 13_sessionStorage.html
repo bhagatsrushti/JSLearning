@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session Storage</title>
+  </head>
+  <body>
+    <h2>Session Storage</h2>
+    <script>
+      window.sessionStorage.setItem('city','pune');
+      window.sessionStorage.setItem('pin','431202');
+      window.sessionStorage.setItem('country','Bharat');
+
+      window.sessionStorage.getItem('pin');
+      console.log(pin);
+       const len = window.sessionStorage.length;
+      console.log(len);
+
+      console.log(`total item  in sessions storage is : ${len}`);
+    </script>
+  </body>
+</html>

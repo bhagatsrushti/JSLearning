@@ -1,10 +1,6 @@
 
 console.log(`*****08_setObjectAssignment1.js******`);
 
-console.log(`=========Step1-A==============`);
-
-
-
 
 
 class Bank{
