@@ -32,14 +32,10 @@ return currentValue + index;
 });
 console.log(`Given Index values of array are:`);
 console.log(newArray1);
+console.log(`_____________________________________________________________________________________`);
 
 
 
 
 
 
-// const arrayNum = [4, 5, 3, 2, 7];
-// const newArray = arrayNum.map((currentValue,index)=>{
-// return currentValue + index;
-// });
-// console.log(newArray);
