@@ -1,5 +1,5 @@
 console.log(`*******27_ReduceAssignB.js********`);
-console.log(`======Step1==========`);
+console.log(`===================Step1=======================`);
 class Employee{
 
     constructor(emp_id,emp_name,emp_dept,emp_salary,emp_company){
@@ -19,7 +19,8 @@ const emp_sonali=new Employee(66,"Sonali","Finance",45000,"Infy");
 const emp_monika=new Employee(77,"Monika","IT",40000,"Wipro");
 const emp_viny=new Employee(88,"Vinayak","IT",75000,"TCS");
 const emp_mahi=new Employee(99,"Mahesh","HR",85000,"Infy");
-console.log(`------------------------------------------------- STEP-01 ----------------------------------------`);
+
+
 const arrayPerson = [emp_anil, emp_radha, emp_rishi, emp_sonali,emp_monika,emp_viny,emp_mahi];
 const arrayWipro=arrayPerson.filter((value)=>{
     return value.emp_company=="Wipro";
@@ -27,7 +28,9 @@ const arrayWipro=arrayPerson.filter((value)=>{
 const arrayWipro1=arrayWipro.map((value0)=>{
     return value0.emp_name
 })
-console.log(`Employee Which Are Working In Wipro ===>>> ${arrayWipro1}`);
+
+
+console.log(`Employee Which Are Working In Wipro : ${arrayWipro1}`);
 console.log(`=========================Step2=====================`);
 const arrayDept= arrayPerson.filter((value1)=>{
     return value1.emp_dept=="IT" || value1.emp_dept=="HR"
@@ -36,7 +39,7 @@ const arrayDept1=arrayDept.map((value1)=>{
     return value1.emp_name
 })
 
-console.log(`Employee Which Are Working In "IT" or "HR" ===>> ${arrayDept1}`);
+console.log(`Employee Which Are Working In "IT" or "HR" : ${arrayDept1}`);
 console.log(`=========================Step3=====================`);
 const arrayGreater50=arrayPerson.filter((value2)=>{
     return value2.emp_id>50;
@@ -44,7 +47,7 @@ const arrayGreater50=arrayPerson.filter((value2)=>{
 const arrayGreater=arrayGreater50.map((value2)=>{
     return value2.emp_name;
 })
-console.log(`Employee Who"s ID Are Greater than "50" ===>> ${arrayGreater}`);
+console.log(`Employee Who"s ID Are Greater than "50" : ${arrayGreater}`);
 console.log(`=========================Step4========================`);
 const arrayName=arrayPerson.filter((value)=>{
     return value.emp_name.startsWith("A") || value.emp_name.startsWith("V")|| value.emp_name.startsWith("M");
@@ -52,7 +55,7 @@ const arrayName=arrayPerson.filter((value)=>{
 const arrayName1=arrayName.map((value3)=>{
     return value3.emp_name;
 })
-console.log(`Employee Name Starts With "A" , "V" , "M" ===>>${arrayName1}`);
+console.log(`Employee Name Starts With "A" , "V" , "M" :${arrayName1}`);
 console.log(`=========================Step5==========================`);
 const arraySalary=arrayPerson.filter((element)=>{
     return element.emp_salary
