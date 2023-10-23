@@ -3,7 +3,7 @@ var firstName; //variable declaration
 firstName="Srushti"; //variable initialization
 console.log(firstName);
 
-firstName="mr.Bhagat"
+firstName="miss.Bhagat"
 console.log(firstName);
 
 var lastName="Bhagat";  //variable declaration and initialization
